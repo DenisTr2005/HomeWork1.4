@@ -21,10 +21,10 @@ public class Main {
         System.out.println("\n");
 
         System.out.println("Задание 3");
-        int yearCurrent = 2022, yearFirst = yearCurrent - 200, yearLast = yearCurrent + 100;
-        for (int year = yearFirst; year <= yearLast; year++) {
-            if (year % 79 == 0) {
-                System.out.println(year);
+        int yearCurrent = 2022, yearFirst = 200, yearLast = 100;
+        for (i = 0; i <= yearCurrent + yearLast; i+=79) {
+            if (i >= yearCurrent - yearFirst) {
+                System.out.println(i);
             }
         }
 
