@@ -11,7 +11,7 @@ public class Main {
         for (;i>0;i--) {
             System.out.print(i + " ");
         }
-        System.out.println("\n");
+        System.out.println("\n ");
 
         System.out.println("Задание 2");
         int firstFr = 3;
